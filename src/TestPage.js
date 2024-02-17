@@ -43,61 +43,62 @@ function TestPage() {
         let timeInSeconds = 30 * 60;
         let subCategory = "";
 
+        let cat = ""
         if (selectedCategory === "EFA / Refresher") {
-          selectedCategory = "Elementary First Aid - EFA / Refresher"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "Elementary First Aid - EFA / Refresher"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "AFF / Refresher") {
-          selectedCategory = "Advanced Fire Fighting - AFF / Refresher"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "Advanced Fire Fighting - AFF / Refresher"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "STSDSD") {
-          selectedCategory = "STSDSD - Security Training for Seafarers"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "STSDSD - Security Training for Seafarers"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "FPFF / Refresher") {
-          selectedCategory = "Fire Prevention & Fire Fighting - FPFF / Refresher"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "Fire Prevention & Fire Fighting - FPFF / Refresher"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "PST / Refresher") {
-          selectedCategory = "Personal Survival Techniques - PST / Refresher"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "Personal Survival Techniques - PST / Refresher"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "PSSR") {
-          selectedCategory = "Personal Safety & Social Responsibility - PSSR"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "Personal Safety & Social Responsibility - PSSR"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "TASCO") {
-          selectedCategory = "TASCO"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "TASCO"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "CHEMCO") {
-          selectedCategory = "CHEMCO"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "CHEMCO"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "GASCO") {
-          selectedCategory = "GASCO"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "GASCO"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "OCTF / OCTCO") {
-          selectedCategory = "OCTF / OCTCO"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "OCTF / OCTCO"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "MEDICARE / Refresher") {
-          selectedCategory = "MEDICARE / Refresher"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "MEDICARE / Refresher"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "PSCRB") {
-          selectedCategory = "PSCRB"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "PSCRB"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "MFA / Refresher") {
-          selectedCategory = "Medical First Aid - MFA / Refresher"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "Medical First Aid - MFA / Refresher"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         else if (selectedCategory === "PSF") {
-          selectedCategory = "Passenger Ship Familiarization - PSF"
-          filteredQuestions = shuffleArray(response.data.filter(question => question.category === selectedCategory).slice(0, 30));
+          cat = "Passenger Ship Familiarization - PSF"
+          filteredQuestions = shuffleArray(response.data.filter(question => question.category === cat).slice(0, 30));
         } 
         
 

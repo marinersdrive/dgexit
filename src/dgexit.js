@@ -38,7 +38,7 @@ function DgExit() {
             alt="Logo"
             className="w-12 h-12 sm:w-14 sm:h-14 motion-safe:animate-spin"
           />
-        <h1 className="flex text-2xl sm:text-3xl font-bold text-dark-blue">
+        <h1 className="flex text-lg sm:text-3xl font-bold text-dark-blue">
           My Tests <FaChevronRight className="p-1 m-1" /> DG Exit Exam
         </h1>
       </div>

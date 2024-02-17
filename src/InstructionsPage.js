@@ -63,7 +63,7 @@ function InstructionsPage() {
       setIsLoading(true);
 
       // Make a POST request to store user data
-      await fetch("http://localhost:5005/api/storeUserData", {
+      await fetch(`${process.env.REACT_APP_SERVER_BASE_URL}api/storeUserData`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
